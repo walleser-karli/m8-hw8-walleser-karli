@@ -29,10 +29,6 @@
   box-sizing: border-box;
 }
 
-/* .sub-menu ul li a:hover {
-  display: block;
-} */
-
 .hide1, .hide2, .hide3 {
   opacity: 0;
 }
