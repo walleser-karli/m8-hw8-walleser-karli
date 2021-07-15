@@ -22,13 +22,22 @@
   background-color: #dde1e7;
 }
 .sub-menu-products li, .sub-menu-services li, .sub-menu-company li {
-  display: none;
+  display: block;
   width: 100%;
   padding: 20px;
   border: 2px solid #fff;
   box-sizing: border-box;
 }
 
-.sub-menu ul li a:hover {
+/* .sub-menu ul li a:hover {
   display: block;
+} */
+
+.hide1, .hide2, .hide3 {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+  transition: opacity 1s;
 }
